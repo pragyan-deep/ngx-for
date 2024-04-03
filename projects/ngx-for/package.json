@@ -1,6 +1,6 @@
 {
   "name": "ngx-for",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
@@ -13,5 +13,9 @@
     "loop",
     "ngFor"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pragyan-deep/ngx-for"
+  },
   "sideEffects": false
 }
