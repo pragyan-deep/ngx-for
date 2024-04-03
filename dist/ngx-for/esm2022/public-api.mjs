@@ -1,0 +1,5 @@
+/*
+ * Public API Surface of ngx-for
+ */
+export * from './lib/ngx-for.directive';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1mb3Ivc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLHlCQUF5QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcclxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1mb3JcclxuICovXHJcblxyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtZm9yLmRpcmVjdGl2ZSc7XHJcbiJdfQ==
