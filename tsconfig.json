@@ -5,10 +5,15 @@
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
+    "noPropertyAccessFromIndexSignature": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "ngx-for": [
+        "./dist/ngx-for"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
