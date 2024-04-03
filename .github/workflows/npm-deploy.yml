@@ -10,6 +10,7 @@ jobs:
           with:
             node-version: "20"
         - run: npm ci
+        - run: npm install -g @angular/cli
         - run: ng build ngx-loop
         - run: cd ./dist/ngx-loop
         - uses: JS-DevTools/npm-publish@v3
