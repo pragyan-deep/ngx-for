@@ -12,8 +12,8 @@ jobs:
         - run: npm ci
         - run: npm install -g @angular/cli
         - run: ng build ngx-for
-        - run: cd ./dist/ngx-for
         - uses: JS-DevTools/npm-publish@v3
           with:
+            package: 'dist/ngx-for/package.json'
             token: ${{ secrets.NPM_GITHUB_TOKEN }}
   
