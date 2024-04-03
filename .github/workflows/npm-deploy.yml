@@ -11,8 +11,8 @@ jobs:
             node-version: "20"
         - run: npm ci
         - run: npm install -g @angular/cli
-        - run: ng build ngx-loop
-        - run: cd ./dist/ngx-loop
+        - run: ng build ngx-for
+        - run: cd ./dist/ngx-for
         - uses: JS-DevTools/npm-publish@v3
           with:
             token: ${{ secrets.NPM_GITHUB_TOKEN }}
